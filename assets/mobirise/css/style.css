@@ -276,6 +276,12 @@ html {
 .mbr-navbar--absolute {
   position: absolute;
 }
+/* fix for popup menu conflict */
+@media (max-width: 480px) {
+  .mbr-navbar--absolute.mbr-navbar[id^=menu-] {
+    position: absolute;
+  }
+}
 .mbr-navbar--transparent .mbr-navbar__section {
   background: none;
 }
@@ -292,7 +298,7 @@ html {
     width: 100%;
   }
   .mbr-navbar__column {
-    max-height: 100%;
+    max-height: 100vh;
     overflow-x: hidden;
     overflow-y:auto;
   }
@@ -1592,6 +1598,7 @@ html {
 .mbr-number--inverse-price .mbr-number__right {
   display: inline;
 }
+
 .engine {
 	position: absolute;
 	text-indent: -2400px;
