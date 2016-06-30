@@ -40,6 +40,12 @@
 #msg-box5-17 .mbr-article {
   color: #ffffff;
 }
+#msg-box5-17 .mbr-article H4 {
+  color: #d14841;
+}
+#msg-box5-17 .mbr-article H3 {
+  color: #9365b8;
+}
 #msg-box3-15 .mbr-header .mbr-header__text {
   text-align: left;
   color: #f97352;
