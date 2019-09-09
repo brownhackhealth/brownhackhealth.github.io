@@ -1,37 +1,19 @@
 {
   "settings": {
-    "currentPage": "index2.html",
+    "currentPage": "index.html",
     "versionFirst": "3.5.1",
-    "versionPublish": "4.10.8",
+    "versionPublish": "3.5.1",
     "name": "Brown Hack Health",
     "theme": {
       "name": "mobirise3",
-      "title": "Mobirise 3",
-      "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
-      }
+      "title": "Mobirise 3"
     },
     "scrollAnimation": "true",
     "favicon": "",
     "google-analytics": "",
     "cookiesAlert": "",
     "publishType": "local",
-    "publishPath": "file:///Users/TNguyen/Desktop/NewWeb",
-    "path": "@PROJECT_PATH@",
-    "siteFonts": [],
-    "uniqCompNum": 0
+    "publishPath": "file:///Users/TNguyen/Desktop/NewWeb"
   },
   "pages": {
     "aboutus.html": {
@@ -771,17 +753,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": false,
-            "collapsed": false,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375"
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": false,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -825,23 +807,23 @@
           },
           "_anchor": "header1-0",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bgsmall-2000x1250-24.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bgsmall-2000x1250-24.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.7"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "Brown Hack Health 2016",
           "text": "<span style=\"font-style: normal;\">is a <b>new kind of hackathon</b> that aims to create solutions to medical problems and barriers. This weekend is your opportunity to work with <b>fellow designers, engineers, developers, physicians, artists, entrepreneurs, mentors, and others</b> to help develop tools that could change the worlds of medicine and health.</span><br>",
@@ -867,10 +849,10 @@
           "_name": "header3",
           "_anchor": "header3-2",
           "_params": {
-            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">Keynote Speaker</span>&nbsp;<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">JOHN SCULLEY '61</span>",
           "meta": "\"We are entering a new era of disruptive innovation, especially in healthcare and wellness services, where consumers will take charge of their own health.\" — JS<br>"
@@ -912,25 +894,24 @@
           },
           "_anchor": "msg-box5-0",
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": 50,
             "paddingTop": 0,
             "paddingBottom": 0,
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -1002,23 +983,23 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-0",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": true,
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#f28281",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
           },
           "title": "Why Hackathon?",
           "text": "<p>ldfjldkf</p>",
@@ -1043,10 +1024,10 @@
           "_name": "header3",
           "_anchor": "header3-1",
           "_params": {
-            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "0",
-            "bgColor": "#ffffff"
+            "bgColor": "#ffffff",
+            "showMeta": false
           },
           "title": "Our 24h Event Schedule",
           "meta": "By John Smith posted July 20, 2016"
@@ -1072,27 +1053,27 @@
           },
           "_anchor": "features2-1",
           "_params": {
+            "columnsColor": "#efefef",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#efefef",
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "iconFont": {
@@ -1201,13 +1182,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "bgColor": "#cccccc",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
           },
           "text": "FOLLOW US",
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         "
@@ -1223,15 +1204,9 @@
             }
           },
           "_params": {
-            "showBullets": true,
-            "fullWidth": true,
             "spacing": "0",
             "paddingTop": "0",
             "paddingBottom": "2",
-            "filterBgColor": true,
-            "bgColor": "#ffffff",
-            "showText": false,
-            "filter": true,
             "images": [
               {
                 "tags": "Partner",
@@ -1303,7 +1278,12 @@
                 "caption": "",
                 "active": true
               }
-            ]
+            ],
+            "showText": false,
+            "filter": true,
+            "bgColor": "#ffffff",
+            "fullWidth": true,
+            "showBullets": true
           },
           "_anchor": "gallery3-0",
           "articleLayout": false
@@ -1315,13 +1295,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
           "logo": {
             "image": {
@@ -1357,13 +1337,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#28324e",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Brown Hack Health."
         }
